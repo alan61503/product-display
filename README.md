@@ -27,7 +27,8 @@ This is a custom-built product preview card component. It is designed to be full
 ![mobile](product-preview-card-component-main/ss/mobile.png)
 
 ### 🌍 Live Demo
-🔗 [Check it out here](#) (Add your live demo link)
+[Check it out here!](https://alan61503.github.io/product-display/)
+
 
 ## 🔧 Tech Stack
 - Semantic **HTML5**
