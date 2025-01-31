@@ -7,7 +7,7 @@
     box-sizing: border-box;
   }
   h6 {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
     color: hsl(228, 12%, 44%);
   }
@@ -63,6 +63,10 @@
     font-family: 'Fraunces', serif;
   font-weight: 700;
   }
+  .price:hover {
+    color: hsl(228, 12%, 48%);
+    transition-duration: 0.2s;
+  }
   
   .old-price {
     text-decoration: line-through;
@@ -84,38 +88,63 @@
   
   button:hover {
     background-color: hsl(158, 42%, 30%);
+    transition-duration: 1s;
   }
   
   @media (max-width: 600px) {
     .card {
-      flex-direction: column; /* Stack image and content */
-      max-width: 345px; /* Adjust width for mobile */
+    flex-direction: column !important;  /* Stack content vertically */
+    max-width: 65% !important; /* Reduce width for better fit */
+    margin: auto !important; /* Center the card */
+    height: 90% !important;
+
     }
   
     .card img {
       width: 100%; /* Make the image take full width */
       height: auto;
     }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      content: url('images/image-product-mobile.jpg'); /* Swap with mobile image */
   
     .content {
       padding: 20px;
       text-align: left;
+      padding: auto; /* Increase padding for better spacing */
     }
   
     h1 {
       font-size: 28px; /* Adjust headline size */
+      font-size: 24px; /* Reduce size for mobile */
+      margin-bottom: 15px;
+      padding: auto;
     }
   
     p {
       font-size: 14px; /* Ensure text is readable */
+      font-size: 14px;
+      line-height: 1.6; /* Improve readability */
+      margin-bottom: 15px; 
+      padding: auto;
     }
   
     .price {
       font-size: 24px; /* Make price more prominent */
+      font-size: 22px;
+    margin-bottom: 10px;
+    padding: auto;
     }
   
-    button {
-      width: 100%; /* Make the button full-width */
+      button {
+        width: 100%; /* Make the button full-width */
+        width: 100%;
+        padding: 15px 0;
+        margin-top: 10px; 
+        padding: auto;
+      }
     }
   }
   
