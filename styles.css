@@ -108,7 +108,7 @@
     .card img {
       width: 100%;
       height: auto;
-      content: url('images/image-product-mobile.jpg'); /* Swap with mobile image */
+      content: url('product-preview-card-component-main/images/image-product-mobile.jpg'); /* Swap with mobile image */
   
     .content {
       padding: 20px;
