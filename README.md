@@ -17,10 +17,10 @@ This is a custom-built product preview card component. It is designed to be full
 ## 📌 Overview
 
 ### 🎯 Features
-✅ Fully responsive design (Desktop & Mobile)
-✅ Optimized for accessibility
-✅ Clean and modern UI
-✅ Interactive hover and focus states
+✅ Fully responsive design (Desktop & Mobile)<br>
+✅ Optimized for accessibility<br>
+✅ Clean and modern UI<br>
+✅ Interactive hover and focus states<br>
 
 ### 🖼 Screenshot
 ![Product Preview Card](product-preview-card-component-main/ss/desktop.png)
