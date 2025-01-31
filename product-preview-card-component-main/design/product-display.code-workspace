@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "product-display",
+			"path": "../.."
+		},
+		{
+			"name": "product-preview-card-component-main",
+			"path": "../../../product display/product-preview-card-component-main"
+		}
+	],
+	"settings": {}
+}
