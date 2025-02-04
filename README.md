@@ -1,6 +1,6 @@
 # 📦 Product Preview Card Component(^///^)
 
-This is a custom-built product preview card component. It is designed to be fully responsive and optimized for different screen sizes. 🖥️📱
+This is a custom-built product preview card component. It is designed to be fully responsive and optimized for different screen sizes. 👾🖥️📱
 
 ## 📑 Table of Contents
 - [Overview](#overview)
